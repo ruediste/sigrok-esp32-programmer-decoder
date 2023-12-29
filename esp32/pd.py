@@ -1,7 +1,7 @@
 ##
 ## This file is part of the libsigrokdecode project.
 ##
-## Copyright (C) 2015 Bart de Waal <bart@waalamo.com>
+## Copyright (C) 2023 Ruedi Steinmann <ruediste@gmail.com>
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -303,8 +303,8 @@ class BootloaderProtocolDecoder(SlipDecoder):
 
 class Decoder(srd.Decoder):
     api_version = 3
-    id = "esp32"
-    name = "Esp32"
+    id = "esp32-programmer"
+    name = "Esp32-Prog"
     longname = "ESP32 Programmer"
     desc = "Decodes the protocol of the ESP32 programmer/bootloader"
     license = "gplv3+"
